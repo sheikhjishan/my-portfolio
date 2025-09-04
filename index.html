@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation/Landing page -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#hero" class="nav-logo">Home</a>
+            <ul class="nav-menu" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Qualifications</a></li>
+                <li><a href="#projects">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section/landing page -->
+    <header class="hero-section" id="hero">
+        <div class="hero-content">
+            <h1>Hello viewers; <br> Welcome to my portofolio!</h1>
+            <h2>I'm Jishan.</h2>
+            <p>CSE Student & Aspiring Full Stack Web Developer...</p>
+            <a href="#about" class="btn-primary">Explore More</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am <strong>Sheikh Jishan</strong>, pursuing a Bachelor of Technology degree in Computer Science & Engineering at <strong>Malout Institute of Management and Information Technology, Malout</strong> and a passionate Full Stack Web Developer. I have completed certified <strong>HTML and CSS</strong> training through <strong>Azure Skynet Pvt. Ltd. with Cosmic Skills</strong>. I aim to build modern, responsive, and visually engaging websites. <br><br> My learning journey is driven by curiosity, dedication, and the desire to build digital experiences that are both functional and visually engaging. I enjoy exploring new tools and frameworks and continuously strive to improve my development and problem-solving skills. <br><br> Beyond coding, I have a keen interest in DSA, Operating Systems and other courses, which strengthen my foundation as a tech professional. My goal is to become a full-stack developer and contribute meaningfully to the tech community through real-world projects and continuous learning.</p>
+                </div>
+                <div class="about-img">
+                    <img src="WhatsApp Image 2025-09-04 at 16.21.38_6a02c2a2.jpg" alt="Sheikh Jishan">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills/Qualifications Section -->
+    <section class="section bg-light" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Qualifications & Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, Bootstrap, Node.js, PHP, MySQL etc. <br><em>Currently learning and practicing!</em></p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>Programming</h3>
+                    <p>C, C++, OOPs, DS&A, DAA, OS, Python etc. <br> <em>Working on languages skills also side by side!</em></p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>Education</h3>
+                    <p>Matriculation (in 2021), Intermediate (in 2023), B.Tech, CSE (pursuing)</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-award"></i>
+                    <h3>Certifications</h3>
+                    <p>HTML/CSS from Azure, HackingFlix, Unity & Social Welfare Foundation, 12th Physics, 13th Annual Athletic Meet 2024 (March past), etc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects/Achievements Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects & Achievements</h2>
+            <ul class="project-list">
+                <li><span class="project-line">Successfully created this personal portfolio website.</span></li>
+                <li><span class="project-line">Developed several static web pages.</span></li>
+                <li><span class="project-line">Strong knowledge in C, C++, OOPs, DSA, DAA, OS, etc.</span></li>
+                <li><span class="project-line">Actively learning and contributing to open-source.</span></li>
+                <li><span class="project-line">Participated in tech workshops and seminars to stay updated with the latest trends.</span></li>
+                <li><span class="project-line">Actively learning JavaScript, Bootstrap, and exploring React.js.</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section bg-light" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Enter your name!" required>
+                <input type="email" placeholder="Enter your email!" required>
+                <textarea placeholder="Type your message here!" rows="5" required></textarea>
+                <button type="submit">Click here to send message!</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#skills">Qualifications</a>
+                <a href="#projects">Achievements</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/sheikhjishan81"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/_sheikhjishan/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sheikh-jishan-68a073293/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sheikhjishan"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <p class="footer-credit">Built by Sheikh jishan | © 2025 with <i class="fa-solid fa-heart"></i> | No copyrights here!</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById("navLinks");
+            nav.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
